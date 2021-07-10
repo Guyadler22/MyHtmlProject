@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="Login.css">
+    <script defer src="User.js"></script>
+    <script defer src="script.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form">
+                <input type="text" placeholder="User name" id="U_name">
+                <input type="password" placeholder="Password" id="Pass">
+                <input type="email" placeholder="Email" id="Email">
+                <button id="Create">Create</button>
+                <p class="message">Already Registered? <a href="#">Login</a></p>
+            </form>
+
+            <form class="Login-form">
+                <input type="text" placeholder="User name" id="Luser_name">
+                <input type="password" placeholder="Password" id="lpas">
+                <button id="L_log">Login</button>
+                <p class="message">Not Registered? <a href="#">register</a></p>
+            </form>
+
+        </div>
+    </div>
+   
+    <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+    
+    <script>
+      //toggle register/login//
+      $(".message a").click(function() {
+        $("form").animate({height: "toggle", opacity: "toggle" }, ";slow");
+        });
+        
+        $("#Create").click(function() {
+        $("form").animate({height: "toggle", opacity: "toggle" }, ";slow");
+        });
+    
+    </script>
+</body>
+</html>

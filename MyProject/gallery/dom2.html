@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+        <title>index</title>
+
+		<script>
+		
+            function boxColor(){
+
+               var inputColor = document.getElementById("uColor").value;
+               var inputWidth = document.getElementById("uWidth").value+"px";
+               var inputHeight = document.getElementById("uHeight").value+"px"; 
+                console.log(inputColor);
+                console.log(inputWidth);
+                console.log(inputHeight);
+
+
+                document.getElementById("box").style.backgroundColor= inputColor;
+                document.getElementById("box").style.width=inputWidth;
+                document.getElementById("box").style.height=inputHeight;
+            }
+
+
+
+         </script>
+
+
+
+
+	</head>
+	
+<body>
+
+<input type="color" id="uColor"/><br/>
+<input type="number" id="uWidth" />
+<input type="text" id="uHeight">
+<button onclick="boxColor()">get color</button>
+
+
+<div style="height: 100px ; width: 100px; border: 1px solid black;" id="box"></div>
+</body>
+	
+    
+
+</html>

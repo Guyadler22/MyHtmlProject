@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>index</title>
+
+    <script>
+
+        function login(){
+
+            var name = document.getElementById("Name").value;
+            var pass = document.getElementById("Pass").value;
+            var aPass =document.getElementById("aPass");
+
+            if(name == "hackeru" && pass == "hackeru123"){
+                document.getElementById("aPass").innerHTML="<p>welcome</p>";
+                aPass.style.color="green";
+                aPass.style.fontSize="50px";
+            }
+            
+            else{document.getElementById("aPass").innerHTML="<p>error</p>";
+            aPass.style.color="red";
+            aPass.style.fontSize="50px";
+    
+                }
+        }
+
+	</script>
+
+</head>
+
+<body>
+
+
+    <h1>login</h1>
+
+    <input type="text" id="Name"><br /><br /><br />
+    <input type="password" id=Pass><br /><br />
+    <div id="aPass"></div><br /><br /><br />
+
+    <button onclick="login()">login</button>
+
+
+
+</body>
+
+
+</html>

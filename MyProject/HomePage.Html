@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Guy final projact</title>
+     
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+   integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    
+    <!-- My CSS -->
+    <link rel="stylesheet" href="project.css">
+
+     <!-- Icones Font Are... -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+
+   <!-- aos -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="imgs/icon.png" type="image/png" />
+  
+  </head>
+
+  <body>
+         <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light  navbar-transparent fixed-top" color-on-scroll="500">
+      <a class="navbar-brand" href="#">Guy's Project</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#"><i class="fas fa-home"></i>Home <span
+                      class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#about"><i class="far fa-user-circle"></i>About Me</a>
+              <a class="nav-item nav-link" href="#Gallery"><i class="far fa-images"></i>Gallery</a>
+              <a class="nav-item nav-link" href="#contactUs"><i class="far fa-envelope"></i>Contact Us</a>
+          </div>
+      </div>
+  </nav>
+
+  <!-- intro -->
+  <section class="container-fluid" id="main">
+    <h1 class="display-1 text-center">Guy's Final Project</h1>
+</section>
+
+  <!-- About Me -->
+  <section class="container-fluid py-5" id="about">
+    <h2 class="display-3 text-center">About Me</h2>
+
+    <div class="row py-5">
+        <div class="col-md-6 text-center">
+            <img class="img-fluid" src="imgs/About-me.jpg" alt="about-me" data-aos="fade-right">
+        </div>
+
+        <div class="col-md-6 align-self-center">
+            <p>My name is Guy adler, I'm 23 years old from Petah Tiqva.<br>
+                I'm working for Migdal insurance.<br>
+                This days I'm student for Web and Application development in HackerU college.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Gallery -->
+    <section id="Gallery" class="py-md-8 py-5 bg-light NewColor">
+        <div class="container text-center ">
+          <h1 id="mph1" class="py-md-8 py-5">My Projects</h1>
+      </div>
+
+      
+      <div class="row text-center left">
+           
+          <div class="col-md-2 left"  data-aos="flip-up">
+              <a href="/MyProject/list/List-to-do.html" target="_blanck"><i
+                      class="far fa-list-alt fas fa-igloo fa-7x"></i>
+                  <h4>List</h4>
+              </a>
+              <img src="imgs/HTML.png" class="imgs">
+              <img src="imgs/css.png" class="imgs">
+              <img src="imgs/js.png" class="imgs">
+              <img src="imgs/bootstrap.png" class="imgs">
+            </div>
+
+          <div class="col-md-2" data-aos="flip-right">
+              <a href="/MyProject/login/Login.html" target="_blanck"><i class="fas fa-sign-in-alt fa-7x"></i>
+                  <h4>LogIn</h4>
+              </a>
+              <img src="imgs/HTML.png" class="imgs">
+              <img src="imgs/css.png" class="imgs">
+              <img src="imgs/jquery.png" class="imgs">
+              <img src="imgs/bootstrap.png" class="imgs">
+          </div>
+          <div class="col-md-2" data-aos="flip-right">
+              <a href="tic-tac-toe/index.html" target="_blanck"><i class="fas fa-times fa-7x"></i>
+                  <h4>Tic Tac Toe</h4>
+              </a>
+              <img src="imgs/HTML.png" class="imgs">
+              <img src="imgs/css.png" class="imgs">
+              <img src="imgs/js.png" class="imgs">
+          </div>
+      </div>
+      </div>
+  </section>
+    
+    <!-- contact us -->
+    <div class="container py-5 " id="contactUs">
+      <div class="row">
+          <div class="col py-5 ">
+              <h1 class="text-center">Contact Us</h1>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-7 align-self-center">
+              <form>
+                  <div class="form-group">
+                      <label for="firstName">First Name:</label>
+                      <input type="text" class="form-control" id="firstName">
+                  </div>
+                  <div class="form-group">
+                      <label for="lastName">Last Name:</label>
+                      <input type="text" class="form-control" id="lastName">
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email Address:</label>
+                      <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                      <label for="phone">Phone Number:</label>
+                      <input type="tel" class="form-control" id="phone">
+                  </div>
+                  <div class="form-group">
+                      <label for="msg">Message:</label>
+                      <textarea class="form-control" id="msg" rows="5"></textarea>
+                  </div>
+
+                  <button type="button" id="sendBtn">Send</button>
+                  <button type="button" id="reloadBtn">Reload</button>
+              </form>
+          </div>
+
+          <div class="col-md-5">
+              <div class="col-md-4" data-aos="fade-left" data-aos-anchor="#trigger-right">
+                  <img id="trigger-right" src="imgs/contact.png" alt="imgs/iphone_xs_img">
+              </div>
+          </div>
+
+      </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-fluid bg-light">
+
+
+          <div class="offset-md-5 col-md-4">
+
+              <div class="pl-4 row">
+                  <h1 id="followFont">Follow Me:</h1>
+              </div>
+
+              <div class="row pt-3">
+                  <a href="https://www.instagram.com/" target="_blanck"><i id="insta"
+                          class="fab fa-instagram fa-5x"></i></a>
+                  <a href="https://he-il.facebook.com/" target="_blanck"><i id="face"
+                          class="fab fa-facebook-square fa-5x"></i></a>
+              </div>
+
+              <div class="row py-2">
+                  <p><i class="far fa-copyright"></i>Created by Guy adler 2020</p>
+              </div>
+
+          </div>
+      </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"></script>
+
+
+  <script>
+      AOS.init({
+          duration: 1200,
+      });
+  </script>
+</body>
+
+</html>
+</body>
+</html>

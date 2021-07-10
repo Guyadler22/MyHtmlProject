@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+
+html {
+    height: 100%;
+    margin: 0;
+    transition-duration: 4000ms;
+    scroll-behavior: smooth;
+}
+
+
+i {
+    display: inline-block;
+    margin: 5px;
+}
+
+#main {
+    background-image: url("imgs/intro-img.jpg");
+    /* background-color: white; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+    width: 100%;
+    padding-top: 400px;
+}
+
+ section{
+     min-height: 800px;
+ }
+
+#main h1 {
+    font-family: 'Bowlby One SC', cursive;
+    color: white;
+    /* opacity: 0.6; */
+
+}
+
+#about {
+    /* padding-top: 150px; */
+    background-color: #1B6886;
+}
+
+#about h2 {
+    color: #F87074;
+    font-size: 80px;
+}
+
+#about p {
+    color: white;
+    font-size: 24px;
+}
+
+#about img {
+    max-width: 50%;
+}
+
+.navbar-light {
+    background-color: transparent;
+}
+
+a {
+    color: rgb(68, 68, 68);
+  }
+
+a:hover{
+    color: #1B6886;
+    text-decoration: none;
+
+}
+.imgs{
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    margin-top: 4px;
+    transition: 0.7s;
+
+}
+.imgs:hover{
+    width: 40px;
+    height: 40px;
+}
+
+#followFont{
+    background-color: #F8F9FA;
+    font-family: 'Reenie Beanie', cursive;
+
+}
+
+#insta{
+    margin-right: 20px;  
+}
+
+#face{
+    margin-left: 20px;
+}
+
+#insta:hover{
+    color: #E14479;   
+}
+
+#face:hover{
+    color: #3B579D;
+}
+
+.left{
+    justify-content: center;
+    
+}
+
+.NewColor{
+    background-image: url("/MyProject/imgs/GalleryBG.jpg");
+}

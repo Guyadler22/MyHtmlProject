@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+        <title>index</title>
+
+		<script>
+		
+            function boxColor(){
+
+               var inputColor = document.getElementById("uColor").value;
+                
+                console.log(inputColor);
+
+                document.getElementById("box").style.backgroundColor= inputColor;
+            }
+
+
+
+         </script>
+
+
+
+
+	</head>
+	
+<body>
+
+<input type="color" id="uColor"/>
+<button onclick="boxColor()">get color</button>
+
+
+<div style="height: 100px ; width: 100px; border: 1px solid black;" id="box"></div>
+</body>
+	
+    
+
+</html>
